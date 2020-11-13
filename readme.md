@@ -62,7 +62,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+*Breakdown schets van de homepagina van de OnePlus website.*
+<img src="images/breakdown-website-schetsen.png" width="375px" alt="Breakdown schets Homepagina">
 
 
 
