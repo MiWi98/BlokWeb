@@ -6,9 +6,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. menu icon: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js
+2. text over image: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_text
+3. right arrow: https://www.w3schools.com/howto/howto_css_arrows.asp
+4. Code gebruikt van de Oneplus website zelf 'object-fit:cover'
 
 
 
@@ -38,11 +39,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+- Ik heb een hambuger menu erin gezet en de afbeeldingen en de tekst op de afbeelding. hier ben ik aantal dagen flink op vast gelopen.
+uiteindelijk was het zo simpel als ipv van e afbeelding in de html in de css te zetten! -
+<img src="images/v1.png" width="375px" alt="v1">
 
-**Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
 
 ### Agenda voor meeting
 

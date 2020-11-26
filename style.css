@@ -1,0 +1,229 @@
+/************************/
+
+/* CODE VOOR NAVIGATIE */
+
+/***********************/
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 18px;
+  height: 2px;
+  background-color: #818181;
+  margin: 4px 10px;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  /* -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px); */
+
+  transform: rotate(-45deg) translate(-6px, 2px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+#logo {
+  height: 35px;
+  margin-top: 5px;
+}
+
+.change .bar3 {
+  /* -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-2px, 0px); */
+  transform: rotate(45deg) translate(-6px, -2px);
+}
+
+.nav-bar {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+/************************/
+
+/* CODE VOOR BLOK 1 */
+
+/***********************/
+
+.blackFriday {
+  position: relative;
+  display: inline-block;
+  height: 400px;
+  width: 100%;
+  background-image: url('./links/mobile/OP_ECOM_BF_KV_S\ \(3200x1400\).png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-block1 {
+  display: inline-block;
+}
+
+.BFHeading {
+  position: relative;
+  font-size: 20px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 4px;
+  margin-top: 0;
+  margin-left: 50px;
+  color: white;
+}
+
+/************************/
+
+/* CODE VOOR BLOK 2 */
+
+/***********************/
+
+.onePlus8T {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.onePlus8T>img {
+  position: absolute;
+  border: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.text-block2 {
+  position: relative;
+}
+
+.text-block {
+  position: relative;
+}
+
+/************************/
+
+/* CODE VOOR BLOK 3 */
+
+/***********************/
+
+.onePlusNord {
+  position: relative;
+  text-align: center;
+}
+
+.onePlusNord>img {
+  position: absolute;
+  border: 0;
+  left: 0;
+  top: 416px;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.text-block3 {
+  position: absolute;
+  display: inline-block;
+}
+
+/************************/
+
+/* CODE VOOR HEADINGS */
+
+/***********************/
+
+.subHeading {
+  position: relative;
+  font-size: 18px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 4px;
+  margin-top: 5px;
+}
+
+.heading {
+  position: relative;
+  font-size: 28px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+/************************/
+
+/* CODE VOOR ONDEK MEER BUTTON */
+
+/***********************/
+
+.ontdekMeerWit {
+  position: relative;
+  font-size: 16px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 4px;
+  margin-top: 0;
+  margin-left: 50px;
+  color: white;
+}
+
+.ontdekMeerZwart {
+  position: relative;
+  font-size: 16px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 4px;
+  margin-top: 0;
+  margin-left: 50px;
+  color: black;
+}
+
+/************************/
+
+/* CODE VOOR KOOP NU BUTTON */
+
+/***********************/
+
+.koopNu {
+  color: #000;
+  border: 2px solid #000;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+/************************/
+
+/*CODE VOOR ARROW RIGHT*/
+
+/***********************/
+
+.arrowWhite {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.arrowBlack {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
