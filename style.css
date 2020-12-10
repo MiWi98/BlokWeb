@@ -1,9 +1,6 @@
-/************************/
-
-/* CODE VOOR NAVIGATIE */
-
 /***********************/
-
+/* CODE VOOR NAVIGATIE */
+/***********************/
 body {
   margin: 0;
   position: relative;
@@ -52,11 +49,8 @@ body {
 }
 
 /************************/
-
 /* CODE VOOR BLOK 1 */
-
 /***********************/
-
 .blackFriday {
   position: relative;
   display: inline-block;
@@ -70,11 +64,13 @@ body {
 
 .text-block1 {
   display: inline-block;
+  margin-top: 40px;
+
 }
 
 .BFHeading {
   position: relative;
-  font-size: 20px;
+  font-size: 28px;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin-bottom: 4px;
   margin-top: 0;
@@ -82,88 +78,219 @@ body {
   color: white;
 }
 
-/************************/
-
-/* CODE VOOR BLOK 2 */
-
-/***********************/
-
-.onePlus8T {
+.ontdekMeerWit-BF{
   position: relative;
-  text-align: center;
-  color: black;
+  font-size: 16px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 4px;
+  margin-left: 50px;
+  margin-top: 0;
+  color: white;
 }
 
-.onePlus8T>img {
-  position: absolute;
-  border: 0;
-  left: 0;
-  top: 0;
+/************************/
+/* CODE VOOR BLOK 2 *
+/***********************/
+.onePlus8T {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 550px;
   width: 100%;
-  height: 600px;
-  object-fit: cover;
+  margin-top: 10px;
+  background-image: url('./links/mobile/8T_small_1xpng.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .text-block2 {
-  position: relative;
-}
-
-.text-block {
-  position: relative;
-}
-
-/************************/
-
-/* CODE VOOR BLOK 3 */
-
-/***********************/
-
-.onePlusNord {
-  position: relative;
+  display: inline-block;
   text-align: center;
 }
 
-.onePlusNord>img {
-  position: absolute;
-  border: 0;
-  left: 0;
-  top: 416px;
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-}
-
-.text-block3 {
-  position: absolute;
-  display: inline-block;
+/************************/
+/* CODE VOOR BLOK 3 */
+/***********************/
+.onePlusNord {
+  background-image: url('./links/mobile/Crop_TopBanner_OPN_small.jpg');
 }
 
 /************************/
-
-/* CODE VOOR HEADINGS */
-
+/* CODE VOOR BLOK 4 */
 /***********************/
+.onePlus8 {
+  background-image: url('./links/mobile/OnePlus 8_KV3_small.jpg');
+}
+
+/************************/
+/* CODE VOOR BLOK 5 */
+/***********************/
+.onePlus8Pro {
+  background-image: url('./links/mobile/OP8Pro_eu.jpg');
+}
+
+
+/************************/
+/* CODE VOOR BLOK 6 */
+/***********************/
+.onePlus8T-Skate {
+  background-image: url('./links/mobile/OP_ECOM_SkatersProject.jpg');
+}
+
+/************************/
+/* CODE VOOR BLOK 7 */
+/***********************/
+.opinions {
+  background-image: none;
+  height: 330px;
+  width: 100%;
+  background-color: #e9e9e9;
+}
+
+/************************/
+/* CODE VOOR BLOK 8 */
+/***********************/
+.onePlusDay {
+  background-image: url('./links/Tile_1860x1040.jpg');
+  height: 450px;
+}
+
+/************************/
+/* CODE VOOR BLOK 9 */
+/***********************/
+.onePlusNord {
+  background-image: url('./links/N10_2560x1040.jpg');
+  height: 450px;
+}
+
+/************************/
+/* CODE VOOR BLOK 10 */
+/***********************/
+.Buds {
+  background-image: url('./links/OneplusBuds.jpg');
+  height: 450px;
+}
+
+/************************/
+/* CODE VOOR BLOK 12 */
+/***********************/
+.onePlusN100 {
+  background-image: url('./links/N100_2560x1040.jpg');
+  height: 450px;
+}
+
+/************************/
+/* CODE VOOR BLOK 13 */
+/***********************/
+.Trade {
+  background-image: url('./links/Trade-in-Tile_large.jpg');
+  height: 450px;
+}
+
+/************************/
+/* CODE VOOR BLOK 14 */
+/***********************/
+.school {
+  background-image: url('./links/Student-program-Tile_large.jpg');
+  height: 450px;
+}
+
+/************************/
+/* CODE VOOR BLOK 14 */
+/***********************/
+.Referral {
+  background-image: url('./links/Referal-program-Tile_large.jpg');
+  height: 450px;
+}
+
+/************************/
+/* CODE VOOR ZWARTE HEADINGS */
+/***********************/
+
 
 .subHeading {
   position: relative;
   font-size: 18px;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin-bottom: 4px;
-  margin-top: 5px;
+  margin-top: 30px;
 }
 
 .heading {
   position: relative;
   font-size: 28px;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  margin-bottom: 4px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.fromPrice{
+  position: relative;
+  font-size: 20px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.heading {
+  position: relative;
+  font-size: 28px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 30px;
   margin-top: 0;
 }
 
 /************************/
+/* CODE VOOR WITTE HEADINGS */
+/***********************/
 
+.subHeadingWhite {
+  position: relative;
+  font-size: 18px; 
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 4px;
+  margin-top: 30px;
+  color: white;
+}
+
+.subHeadingWhite2 {
+ margin-top: 0;
+}
+
+.textDay {
+  position: relative;
+  font-size: 20px; 
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-top: 30px;
+  color: white;
+}
+
+.headingWhite {
+  position: relative;
+  font-size: 28px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 30px;
+  margin-top: 0;
+  color: white;
+}
+
+.headingSkate {
+  margin-top: 30px;
+}
+
+.subSkate{
+  margin-bottom: 30px;
+}
+
+.fromPriceWhite {
+  position: relative;
+  font-size: 20px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+
+/************************/
 /* CODE VOOR ONDEK MEER BUTTON */
-
 /***********************/
 
 .ontdekMeerWit {
@@ -172,8 +299,11 @@ body {
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin-bottom: 4px;
   margin-top: 0;
-  margin-left: 50px;
   color: white;
+}
+
+.ontdekMeerWitOnePlusDay {
+  margin-top: 10px;
 }
 
 .ontdekMeerZwart {
@@ -182,31 +312,55 @@ body {
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin-bottom: 4px;
   margin-top: 0;
-  margin-left: 50px;
   color: black;
 }
 
+.ontdekMeerBlue {
+  position: relative;
+  font-size: 16px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 4px;
+  margin-top: 0;
+  color: #0099cc;
+}
+
 /************************/
-
 /* CODE VOOR KOOP NU BUTTON */
-
 /***********************/
 
 .koopNu {
   color: #000;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
   border: 2px solid #000;
   justify-content: center;
   align-items: center;
   height: 40px;
   padding: 0 20px;
+  margin-bottom: 15px;
   border-radius: 4px;
   background-color: transparent;
 }
 
+.koopNuWhite {
+  color: white;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.koopNuWhiteSkate {
+padding: 10px 22px;
+text-decoration: none;
+}
 /************************/
-
 /*CODE VOOR ARROW RIGHT*/
-
 /***********************/
 
 .arrowWhite {
@@ -214,6 +368,7 @@ body {
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3px;
+  margin-left: 5px;
 }
 
 .arrowBlack {
@@ -221,7 +376,17 @@ body {
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3px;
+  margin-left: 5px;
 }
+
+.arrowBlue {
+  border: solid #0099cc;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+}
+
 
 .right {
   transform: rotate(-45deg);

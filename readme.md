@@ -31,8 +31,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
-
+- ik heb alle background images in de css gezet waardor de tekst nu op de afbeelding komt. wel loop ik tegen nog wat dingen aan. Ik weet niet hoe<br>
+ik de afbeelding meer uitgezoomed kan laten lijken(geen effect) net zoals op de website van oneplus. bijvoorbeeld bij de Oneplus buds en de referral program foto. Ook is het mij nog niet gelukt om de opinions van andere website in zo'n slider te zetten. -
+<img src="images/v2.png" width="375px" alt="v1">
 
 
 ## Voortgang 1 (week 3)
