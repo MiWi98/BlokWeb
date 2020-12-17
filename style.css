@@ -51,7 +51,7 @@ body {
 /************************/
 /* CODE VOOR BLOK 1 */
 /***********************/
-.blackFriday {
+.tijdelijkeActie {
   position: relative;
   display: inline-block;
   height: 400px;
@@ -68,7 +68,7 @@ body {
 
 }
 
-.BFHeading {
+.actieHeading {
   position: relative;
   font-size: 28px;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -159,7 +159,7 @@ body {
 /************************/
 /* CODE VOOR BLOK 9 */
 /***********************/
-.onePlusNord {
+.onePlusNordN10 {
   background-image: url('./links/N10_2560x1040.jpg');
   height: 450px;
 }
@@ -168,7 +168,15 @@ body {
 /* CODE VOOR BLOK 10 */
 /***********************/
 .Buds {
-  background-image: url('./links/OneplusBuds.jpg');
+  background-image: url('./links/Harrington.jpg');
+  height: 450px;
+}
+
+/************************/
+/* CODE VOOR BLOK 10 */
+/***********************/
+.Buds2 {
+  background-image: url('./links/OneplusBuds4.jpg');
   height: 450px;
 }
 
@@ -205,6 +213,14 @@ body {
 }
 
 /************************/
+/* CODE VOOR BLOK 14 */
+/***********************/
+.nieuwsBrief {
+  background-image: url('./links/new_subscribe_large.jpg');
+  height: 450px;
+}
+
+/************************/
 /* CODE VOOR ZWARTE HEADINGS */
 /***********************/
 
@@ -217,9 +233,19 @@ body {
   margin-top: 30px;
 }
 
-.heading {
+h1 {
+  font-weight: normal;
   position: relative;
   font-size: 28px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+h3{
+  font-weight: normal;
+  position: relative;
+  font-size: 16px;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin-bottom: 30px;
   margin-top: 0;
@@ -264,7 +290,8 @@ body {
   color: white;
 }
 
-.headingWhite {
+h2 {
+  font-weight: normal;
   position: relative;
   font-size: 28px;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
