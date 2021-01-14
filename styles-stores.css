@@ -1,0 +1,134 @@
+.banner-stores {
+  background-color: #fafafa;
+  background-image: url('./links/mobile/banner-winkels.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 550px;
+  padding: 40px 15px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.banner-stores > input {
+  background-image: url('./links/mobile/SVG/FindIcon.svg');
+  background-repeat: no-repeat;
+  background-position: 7px 9px;
+  width: 80%;
+  margin-left: 5%;
+  margin-top: 40px;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 10px;
+  padding-left: 30px;
+}
+
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+.articles {
+  margin-top: 30px;
+  padding: 0 30px 30px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.articles > section {
+  margin: 20px 0;
+}
+
+.articles > section > h3, p {
+  margin: 10px;
+}
+
+.articles > section > h3 {
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.articles > section > p {
+  color: #999999;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  /* padding: 0 20px; */
+  /* margin-bottom: 15px; */
+}
+
+.articles > section > p.read-more {
+  color: #09c;
+  margin-top: 20px;
+}
+
+.articles img {
+  width: 100%;
+}
+
+.text-articles {
+  color: #999999;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.contactUs {
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contactUs h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.contactUs p{
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.contactUs p:nth-of-type(2){
+  color:#09c;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.banner-stores p{
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.blue{
+  color:#09c;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.winkels-in img{
+  width: auto;
+  height: 15px;
+}
+
+.winkels-in{
+display: flex;
+padding-left: 20px;
+align-items: center;
+}
