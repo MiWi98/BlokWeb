@@ -1,0 +1,532 @@
+/***********************/
+/* CODE VOOR NAVIGATIE */
+/***********************/
+body {
+  margin: 0;
+  position: relative;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0.625em;
+}
+
+.hidden {
+  display: none;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-6px, 2px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+#logo {
+  height: 2.1875em;
+  margin-top: 0.3125em;
+}
+#shopping-cart > img{
+  width: 0.9375em;
+  height: auto;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-6px, -2px);
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 18px;
+  height: 2px;
+  background-color: #818181;
+  margin: 4px 10px;
+  transition: 0.4s;
+}
+
+/************************/
+/* CODE VOOR BLOK 1 */
+/***********************/
+.tijdelijkeActie {
+  position: relative;
+  display: inline-block;
+  height: 90vh;
+  width: 100%;
+  background-image: url('../links/mobile/OP_ECOM_BF_KV_S\ \(3200x1400\).png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tijdelijkeActie a {
+  position: relative;
+  font-size: 1em;
+  margin-left: 3.1em ;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.tijdelijkeActie article {
+  display: inline-block;
+  margin-top: 2.5em;
+}
+
+.tijdelijkeActie h2 {
+  position: relative;
+  font-size: 1.75em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0.25em;
+  margin-top: 0;
+  margin-left: 1.6em;
+  color: white;
+}
+
+/************************/
+/* CODE VOOR BLOK 2 *
+/***********************/
+.onePlus8T {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 34em;
+  width: 100%;
+  margin-top: 0.62em;
+  background-image: url('../links/mobile/8T_small_1xpng.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.onePlus8T > article {
+  display: inline-block;
+  text-align: center;
+}
+
+.onePlus8T > article > a {
+  position: relative;
+  font-size: 1em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0.25em;
+  margin-top: 0;
+  color: black;
+  text-decoration: none;
+}
+
+.onePlus8T > article > p:nth-of-type(1) {
+  position: relative;
+  font-size: 1.12em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0.5em;
+  margin-top: 1.8em;
+}
+.onePlus8T > article > p:nth-of-type(2) {
+  position: relative;
+  font-size: 1.25em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 1.25em;
+  margin-top: 1.25em;
+}
+
+.onePlus8T > article > button {
+  color: #000;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  border: 0.125em solid #000;
+  justify-content: center;
+  align-items: center;
+  height: 2.5em;
+  padding: 0 1.25em;
+  margin-bottom: 0.9em;
+  border-radius: 0.25em;
+  background-color: transparent;
+}
+
+/************************/
+/* CODE VOOR BLOK 3 */
+/***********************/
+.onePlusNord {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 34em;
+  width: 100%;
+  margin-top: 0.62em;
+  background-image: url('../links/mobile/Crop_TopBanner_OPN_small.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.onePlusNord > article{
+  display: inline-block;
+  text-align: center;
+}
+
+.onePlusNord > article > p:nth-of-type(1) {
+  position: relative;
+  font-size: 1.125em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0.625em;
+  margin-top: 1.875em;
+  color: white;
+}
+
+.onePlusNord > article > button {
+  color: white;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  border: 0.125em solid white;
+  justify-content: center;
+  align-items: center;
+  height: 2.5em;
+  padding: 0 1.25em;
+  margin-bottom: 2em;
+  border-radius: 0.25em;
+  background-color: transparent;
+}
+
+.onePlusNord > article > p:nth-of-type(2) {
+  position: relative;
+  font-size: 1.25em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+.onePlusNord > article > a {
+  position: relative;
+  font-size: 1em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+/************************/
+/* CODE VOOR BLOK 4 */
+/***********************/
+.onePlus8 {
+  background-image: url('../links/mobile/OnePlus 8_KV3_small.jpg');
+}
+
+/************************/
+/* CODE VOOR BLOK 5 */
+/***********************/
+.onePlus8Pro {
+  background-image: url('../links/mobile/OP8Pro_eu.jpg');
+}
+
+/************************/
+/* CODE VOOR BLOK 6 */
+/***********************/
+.onePlus8T-Skate {
+  background-image: url('../links/mobile/OP_ECOM_SkatersProject.jpg');
+}
+
+.onePlus8T-Skate > article > h2 {
+  font-size: 1.75em;
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.onePlus8T-Skate > article > p:nth-of-type(1){
+  position: relative;
+  font-size: 1.125em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: white;
+  margin:1.25em;
+}
+
+/************************/
+/* CODE VOOR BLOK 7 */
+/***********************/
+.opinions {
+  margin-top: 0;
+  background-image: none;
+  height: 53vh;
+  width: 100%;
+  background-color: #e9e9e9;
+}
+
+.opinions > .slider__inner > .slider__contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3.125em;
+}
+
+.slider__contents > p:nth-of-type(1){
+  position: relative;
+  font-size: 1.125em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 3em;
+  margin-top: 1.87em;
+  color: #666666;
+  text-align: center;
+  padding: 0 1.2em;
+}
+
+.slider__contents > p:nth-of-type(2){
+  position: relative;
+  font-size: 1em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0.25em;
+  margin-top: 0;
+  color: #0099cc;
+}
+
+/************************/
+/* CODE VOOR BLOK 8 */
+/***********************/
+.onePlusDay {
+  background-image: url('../links/Tile_1860x1040.jpg');
+  height: 68vh;
+}
+
+.onePlusDay > article > p:nth-of-type(1){
+  position: relative;
+  font-size: 1.25em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-top: 1.875em;
+  color: white;
+}
+
+.onePlusDay > article > p:nth-of-type(2){
+  font-size: 1.125em;
+}
+
+/************************/
+/* CODE VOOR BLOK 9 */
+/***********************/
+.onePlusNordN10 {
+  background-image: url('../links/N10_2560x1040.jpg');
+  height: 67vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.62em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.onePlusNordN10 > article {
+  display: inline-block;
+  text-align: center;
+}
+
+.onePlusNordN10 > article > p:nth-of-type(1){
+  font-size: 1.25em;
+  position: relative;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 1.5625em 0 0.625em 0;
+  }
+
+.onePlusNordN10 > article > p:nth-of-type(2){
+  font-size: 1.125em;
+  position: relative;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 1.5625em 0 0.625em 0;
+  }
+
+.onePlusNordN10 > article > a{
+  position: relative;
+  font-size: 1em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0.25em;
+  margin-top: 0;
+  color: black;
+  text-decoration: none;
+  }
+
+/************************/
+/* CODE VOOR BLOK 10 */
+/***********************/
+.harrington {
+  background-image: url('../links/Harrington.jpg');
+  height: 67vh;
+}
+
+/************************/
+/* CODE VOOR BLOK 10 */
+/***********************/
+.Buds2 {
+  background-image: url('../links/OneplusBuds4.jpg');
+  height: 70vh;
+}
+
+/************************/
+/* CODE VOOR BLOK 12 */
+/***********************/
+.onePlusN100 {
+  background-image: url('../links/N100_2560x1040.jpg');
+  height: 70vh;
+}
+
+/************************/
+/* CODE VOOR BLOK 13 */
+/***********************/
+.Trade {
+  background-image: url('../links/Trade-in-Tile_large.jpg');
+  height: 70vh;
+}
+
+/************************/
+/* CODE VOOR BLOK 14 */
+/***********************/
+.school {
+  background-image: url('../links/Student-program-Tile_large.jpg');
+  height: 70vh;
+}
+
+.school > article > p:nth-of-type(1){
+  position: relative;
+  font-size: 1.25em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0.625em;
+  margin-top: 1em;
+  color: white;
+}
+
+.school > article > p:nth-of-type(2){
+  position: relative;
+  font-size: 1.125em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0.625em;
+  margin-top: 1.875em;
+  color: white;
+}
+
+.school > article > a{
+  position: relative;
+  font-size: 1em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0.25em;
+  margin-top: 0;
+  color: white;
+  text-decoration: none;
+  }
+
+/************************/
+/* CODE VOOR BLOK 15 */
+/***********************/
+.Referral {
+  background-image: url('../links/mobile/referral2mobile.jpg');
+  height: 70vh;
+}
+
+.Referral > article{
+  display: inline-block;
+  text-align: center;
+  margin: 0.312em;
+}
+
+/************************/
+/* CODE VOOR BLOK 16 */
+/***********************/
+.nieuwsBrief {
+  background-image: none;
+  background-size: contain;
+  height: 76vh;
+  background-color: #f6f6f6;
+  display: flex;
+  margin-top: 1em;
+}
+
+input[type=email] {
+  width: 80vw;
+  height: 1.875em;
+  border: 0;
+  border-bottom: 1px solid #7e7e7e;
+  background-color: unset;
+  padding: 0.3125em 0.625em;
+  font-size: 1em;
+  color: #999;
+}
+
+.nieuwsBrief > article > h1 {
+  margin: 3.75em 0.625em 1.875em 0.625em;
+}
+
+.nieuwsBrief > article {
+  border-bottom: 1px solid #d2d2d2;
+  display: inline-block;
+    text-align: center;
+}
+
+.nieuwsBrief > article > h3 {
+  font-weight: normal;
+  position: relative;
+  font-size: 1em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 1.875em;
+  margin-top: 0;
+}
+
+.nieuwsBrief > article > p {
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 0.75em;
+}
+
+
+/* CODE VOOR ZWARTE HEADINGS */
+h1 {
+  font-weight: normal;
+  position: relative;
+  font-size: 1.75em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0.875em;;
+  margin-top: 0;
+}
+
+/* CODE VOOR WITTE HEADINGS */
+h2 {
+  font-weight: normal;
+  position: relative;
+  font-size: 1.75em;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0.875em;
+  margin-top: 0;
+  color: white;
+}
+
+/*CODE VOOR ARROW RIGHT*/
+.arrowWhite {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+.arrowBlack {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+.arrowBlue {
+  border: solid #0099cc;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}

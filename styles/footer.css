@@ -1,0 +1,196 @@
+/************************/
+/* CODE VOOR FOOTER */
+/***********************/
+.barFooter {
+    background-color: #676767;
+    transition: 0.4s;
+  }
+  
+  .barFooter:nth-child(1) {
+    width: 13px;
+    height: 2px;
+    margin: 0 0;
+  }
+  
+  .barFooter:nth-child(2) {
+    width: 2px;
+    height: 13px;
+    margin: -6px 5px;
+  }
+  
+  .changeFooter > .barFooter:nth-child(1) {
+    -webkit-transform: rotate(-0deg) translate(0px, 0px);
+    transform: rotate(-0deg) translate(0px, 0px);
+  }
+  
+  .changeFooter > .barFooter:nth-child(2) {
+    -webkit-transform: rotate(-90deg) translate(0px, 0px);
+    transform: rotate(-90deg) translate(0px, 0px);
+  }
+  
+  .footer-nav-item {
+    border-bottom: 1px solid #d2d2d2;
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.25em;
+  }
+  
+  .menu-item > h3{
+    font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+  }
+
+  .hidden2 {
+    display: none;
+  }
+  
+  .footerSubMenu > ul{
+  list-style-type: none;
+  font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  }
+  
+  .footerSubMenu > ul> li{
+    font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+    align-self: baseline;
+    font-size: 1em;
+    margin-left: 2.5em;
+    margin: 0em 0em 1em 0em;
+  }
+  
+  .footerSubMenu > ul> li> a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer-nav-item > .footerSubMenu.show {
+    display: block;
+    transition: ease-in 1s;
+  }
+  
+  .Payments {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .Payments > ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.625em;
+    margin-bottom: 0;
+    padding: 0.3125em;
+  }
+  
+  .Payments img {
+    width: 2.5em;
+    padding: 0.625em;
+  }
+  
+  .callSupport {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 1.25em auto;
+    width: 80%;
+  }
+  
+  .callSupport a {
+    font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    color: #09c;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  
+  .callSupport img {
+    width: 1.3125em;
+    margin-right: 0.9375em;
+  }
+  
+  .callSupport p {
+    font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+  }
+  
+  .social-icons {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 0.9375em;
+  }
+  
+  .social-icons img {
+    width: 1.25em;
+    padding: 0.3125em 1.25em;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+  
+  .social-icons > ul{
+    margin: 0;
+  }
+  
+  .land {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .land > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .land img {
+    width: 1.25em;
+  }
+  
+  .footerLinks {
+    background-color: #f9f9f9;
+    font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 0.75em;
+    display: flex;
+    padding-top: 1.25em;
+    flex-flow: row wrap;
+    margin-left: 0.9375em;
+  }
+  
+  .footerLinks a {
+    text-decoration: none;
+    color: black;
+  }
+  .footerLinks > ul{
+    list-style-type: none;
+    display: contents;
+    line-height: 1.6;
+  }
+  
+  .copyRights {
+    background-color: #f9f9f9;
+    font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 0.75em;
+    color: #999999;
+    display: flex;
+    justify-content: left;
+    padding: 0.9375em;
+  }

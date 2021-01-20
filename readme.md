@@ -10,7 +10,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. Menu icon en footer icon: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js
+1. Menu icon en footer icon: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js & https://www.youtube.com/watch?v=F-mvXKKoSCU&ab_channel=CodeSpot
 2. Text over image: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_text
 3. Right arrow: https://www.w3schools.com/howto/howto_css_arrows.asp
 4. Code gebruikt van de Oneplus website zelf 'object-fit:cover'
@@ -26,6 +26,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 14. https://codepen.io/SJdV/pen/gwqgZb 
 15. index . html in logo link: https://stackoverflow.com/questions/39686111/link-my-logo-to-homepage/39686201
 16. input afbeelding erin: https://stackoverflow.com/questions/917610/put-icon-inside-input-element-in-a-form
+17. {} https://stackoverflow.com/questions/12097851/difference-between-var-and-var
+18. Object keys https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys & https://www.geeksforgeeks.org/object-keys-javascript/ & https://appdividend.com/2018/12/27/javascript-object-keys-example-object-keys-tutorial/#:~:text=Javascript%20Object%20keys()%20is,found%20directly%20upon%20the%20object.
+19  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+19. https://khaledkzy.github.io/pixel-vh-vw-converter/ & https://www.w3schools.com/tags/ref_pxtoemconversion.asp
 
 
 
@@ -39,15 +43,19 @@ Als ik meer tijd had gehad had ik graag nog de footer beter willen maken, de kle
 
  Ik vond het erg leuk en frusterend om deze site na te maken maar heb veel geleerd over flexbox en hoe je hamburger menu's kan manipuleren tijdens het maken van deze website :) <br><br>
 
+ Part 2: 
+ De code opruimen ging goed maar duurde erg lang, vrij veel machine werk. aantal dagen flink daarmee aan de slag geweest vervolgens nog wat andere punten van de feedback aangepakt. en poh he soms zag ik even het licht niet meer. maar na wat raadplegen van klasgenoten en een boel video's kijken voor uitleg ging dit steeds beter en kwam er 
+ licht te voorschijn :).
+
 
 
 # screenshot(s) van je eindresultaat
 ## Homepagine screenshot:
-<img src="images/v3-1.png" width="375px" alt="v1"><br><br><br><br>
+<img src="images/v4-1.png" width="375px" alt="v1"><br><br><br><br>
 ## Menu screenshot:
-<img src="images/v3-2.png" width="375px" alt="v1"><br><br><br><br>
+<img src="images/v4-2.png" width="375px" alt="v1"><br><br><br><br>
 ## Vind een winkel pagina screenshot:
-<img src="images/v3-3.png" width="375px" alt="v1"><br><br><br><br>
+<img src="images/v4-3.png" width="375px" alt="v1"><br><br><br><br>
 
 
 
