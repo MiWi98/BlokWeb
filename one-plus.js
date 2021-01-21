@@ -27,7 +27,7 @@ if (hamburgerMenu) {
 if (navMenu) {
   var navMenuItems = {} //is voor objects. An array is a type of object intended to be only assigned numeric keys.
 
-  for (var index = 1; index <= navMenu.length; index++); {
+  for (var index = 1; index <= navMenu.length; index++) {
     var item = navMenu[index - 1];
     navMenuItems[index] = item // matched met getal  achter 'id='menu-dropdown-icon-x' en id='menu-dropdown-x' in html
   }
