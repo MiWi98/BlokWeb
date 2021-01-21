@@ -33,7 +33,7 @@ if (navMenu) {
   }
 
   Object.keys(navMenuItems).forEach(function (index) { 
-    navMenuItems[index].addEventListener('click', function () {
+    navMenuItems[index].addEventListener('click', function () { // per navMenuItem waar nodig is een eventListener toevoegen
       collapseMenuItem(index);
     })
   })
@@ -48,7 +48,7 @@ if (footerMenu) {
   }
 
   Object.keys(footerMenuItems).forEach(function (index) {
-    footerMenuItems[index].addEventListener('click', function () { // per footerItem willen we een eventListener toevoegen
+    footerMenuItems[index].addEventListener('click', function () { // per footerItem een eventListener toevoegen
       collapseFooterItem(index);
     })
   })
