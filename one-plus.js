@@ -21,35 +21,35 @@ function collapseFooterItem (index) {
 }
 
 if (hamburgerMenu) {
-  hamburgerMenu.addEventListener('click', toggleMenu)
+  hamburgerMenu.addEventListener('click', toggleMenu);
 }
 
 if (navMenu) {
-  var navMenuItems = {}
+  var navMenuItems = {} //is voor objects. An array is a type of object intended to be only assigned numeric keys.
 
-  for (var index = 1; index <= navMenu.length; index++) {
-    var item = navMenu[index - 1]
-    navMenuItems[index] = item
+  for (var index = 1; index <= navMenu.length; index++); {
+    var item = navMenu[index - 1];
+    navMenuItems[index] = item // matched met getal  achter 'id='menu-dropdown-icon-x' en id='menu-dropdown-x' in html
   }
 
   Object.keys(navMenuItems).forEach(function (index) { 
     navMenuItems[index].addEventListener('click', function () {
-      collapseMenuItem(index)
+      collapseMenuItem(index);
     })
   })
 }
 
 if (footerMenu) {
-  var footerMenuItems = {}
+  var footerMenuItems = {} //is voor objects. An array is a type of object intended to be only assigned numeric keys.
 
   for (var index = 1; index <= footerMenu.length; index++) {
     var item = footerMenu[index - 1]
-    footerMenuItems[index] = item
+    footerMenuItems[index] = item // matched met getal  achter 'id='footer-dropdown-x' en id='footer-dropdown-icon-x' in html
   }
 
   Object.keys(footerMenuItems).forEach(function (index) {
-    footerMenuItems[index].addEventListener('click', function () {
-      collapseFooterItem(index)
+    footerMenuItems[index].addEventListener('click', function () { // per footerItem willen we een eventListener toevoegen
+      collapseFooterItem(index);
     })
   })
 }
