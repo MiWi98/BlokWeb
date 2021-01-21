@@ -27,9 +27,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 15. index . html in logo link: https://stackoverflow.com/questions/39686111/link-my-logo-to-homepage/39686201
 16. input afbeelding erin: https://stackoverflow.com/questions/917610/put-icon-inside-input-element-in-a-form
 17. {} https://stackoverflow.com/questions/12097851/difference-between-var-and-var
-18. Object keys https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys & https://www.geeksforgeeks.org/object-keys-javascript/ & https://appdividend.com/2018/12/27/javascript-object-keys-example-object-keys-tutorial/#:~:text=Javascript%20Object%20keys()%20is,found%20directly%20upon%20the%20object.
-19  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
-19. https://khaledkzy.github.io/pixel-vh-vw-converter/ & https://www.w3schools.com/tags/ref_pxtoemconversion.asp
+18. Object keys https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys & https://www.geeksforgeeks.org/object-keys-javascript/ & https://appdividend.com/2018/12/27/javascript-object-keys-example-object-keys-tutorial/ & https://www.youtube.com/watch?v=VmicKaGcs5g#:~:text=Javascript%20Object%20keys()%20is,found%20directly%20upon%20the%20object. & https://www.youtube.com/watch?v=4uVwGw317QM&t=5s
+19.  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+20. https://khaledkzy.github.io/pixel-vh-vw-converter/ & https://www.w3schools.com/tags/ref_pxtoemconversion.asp
+21. java script extra's : https://www.youtube.com/watch?v=yytscwxx1pk & https://www.youtube.com/watch?v=urol_SD1wz4&t=538s & https://www.youtube.com/watch?v=O9l75KOB2pE&t=121s & https://www.youtube.com/watch?v=1iS0r238G4g & https://www.youtube.com/watch?v=acuYmzY6XOg&t=267s
 
 
 
