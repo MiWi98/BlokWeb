@@ -25,11 +25,11 @@ body {
 }
 
 #logo {
-  height: 2.1875em;
-  margin-top: 0.3125em;
+  height: 2.18em;
+  margin-top: 0.31em;
 }
 #shopping-cart > img{
-  width: 0.9375em;
+  width: 0.95em;
   height: auto;
 }
 
@@ -177,8 +177,8 @@ body {
   position: relative;
   font-size: 1.125em;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  margin-bottom: 0.625em;
-  margin-top: 1.875em;
+  margin-bottom: 0.63em;
+  margin-top: 1.88em;
   color: white;
 }
 
@@ -262,15 +262,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 3.125em;
+  padding-top: 3.13em;
 }
 
 .slider__contents > p:nth-of-type(1){
   position: relative;
-  font-size: 1.125em;
+  font-size: 1.13em;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin-bottom: 3em;
-  margin-top: 1.87em;
+  margin-top: 1.88em;
   color: #666666;
   text-align: center;
   padding: 0 1.2em;
@@ -297,12 +297,12 @@ body {
   position: relative;
   font-size: 1.25em;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  margin-top: 1.875em;
+  margin-top: 1.8em;
   color: white;
 }
 
 .onePlusDay > article > p:nth-of-type(2){
-  font-size: 1.125em;
+  font-size: 1.13em;
 }
 
 /************************/
@@ -330,14 +330,14 @@ body {
   font-size: 1.25em;
   position: relative;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  margin: 1.5625em 0 0.625em 0;
+  margin: 1.56em 0 0.63em 0;
   }
 
 .onePlusNordN10 > article > p:nth-of-type(2){
   font-size: 1.125em;
   position: relative;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  margin: 1.5625em 0 0.625em 0;
+  margin: 1.56em 0 0.63em 0;
   }
 
 .onePlusNordN10 > article > a{
@@ -401,10 +401,10 @@ body {
 
 .school > article > p:nth-of-type(2){
   position: relative;
-  font-size: 1.125em;
+  font-size: 1.13em;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  margin-bottom: 0.625em;
-  margin-top: 1.875em;
+  margin-bottom: 0.63em;
+  margin-top: 1.88em;
   color: white;
 }
 
@@ -429,7 +429,7 @@ body {
 .Referral > article{
   display: inline-block;
   text-align: center;
-  margin: 0.312em;
+  margin: 0.31em;
 }
 
 /************************/
@@ -446,17 +446,17 @@ body {
 
 input[type=email] {
   width: 80vw;
-  height: 1.875em;
+  height: 1.88em;
   border: 0;
   border-bottom: 1px solid #7e7e7e;
   background-color: unset;
-  padding: 0.3125em 0.625em;
+  padding: 0.32em 0.63em;
   font-size: 1em;
   color: #999;
 }
 
 .nieuwsBrief > article > h1 {
-  margin: 3.75em 0.625em 1.875em 0.625em;
+  margin: 3.75em 0.63em 1.88em 0.63em;
 }
 
 .nieuwsBrief > article {
@@ -470,7 +470,7 @@ input[type=email] {
   position: relative;
   font-size: 1em;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  margin-bottom: 1.875em;
+  margin-bottom: 1.88em;
   margin-top: 0;
 }
 
@@ -486,7 +486,7 @@ h1 {
   position: relative;
   font-size: 1.75em;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  margin-bottom: 0.875em;;
+  margin-bottom: 0.88em;;
   margin-top: 0;
 }
 
@@ -496,7 +496,7 @@ h2 {
   position: relative;
   font-size: 1.75em;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  margin-bottom: 0.875em;
+  margin-bottom: 0.88em;
   margin-top: 0;
   color: white;
 }

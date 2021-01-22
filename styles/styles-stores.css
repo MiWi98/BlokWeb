@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-position: bottom;
   height: 83vh;
-  padding:  2.5em 0.9375em 0;
+  padding:  2.5em 0.94em 0;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -14,14 +14,14 @@
 .banner-stores > input {
   background-image: url('../links/mobile/SVG/FindIcon.svg');
   background-repeat: no-repeat;
-  background-position: 0.4375em 0.5625em;
+  background-position: 0.44em 0.56em;
   width: 80%;
   margin-left: 5%;
   margin-top: 2.5em;
   border-radius: 2px;
   border: 1px solid rgba(0,0,0,0.1);
-  padding: 0.625em;
-  padding-left: 1.875em;
+  padding: 0.63em;
+  padding-left: 1.87em;
 }
 
 .nav-bar {
@@ -32,8 +32,8 @@
 
 
 .articles {
-  margin-top: 1.875em;
-  padding: 0 1.875em 1.875em;
+  margin-top: 1.88em;
+  padding: 0 1.88em 1.88em;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #e5e5e5;
@@ -44,21 +44,21 @@
 }
 
 .articles > section > h3, p {
-  margin: 0.625em;
+  margin: 0.63em;
 }
 
 .articles > section > h3 {
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.25em;
   font-weight: 400;
-  margin-bottom: 0.9375em;
+  margin-bottom: 0.94em;
   margin-top: 1.25em;
 }
 
 .articles > section > p {
   color: #999999;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 0.875em;
+  font-size: 0.878em;
   line-height: 1.6;
 }
 
@@ -66,10 +66,10 @@
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #09c;
   margin-top: 1.25em;
-  font-size: 0.875em;
+  font-size: 0.88em;
   text-decoration: none;
   cursor: pointer;
-  margin: 0.625em;
+  margin: 0.63em;
 }
 
 .articles img {
@@ -79,7 +79,7 @@
 .text-articles {
   color: #999999;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 0.875em;
+  font-size: 0.88em;
 }
 
 .contactUs {
@@ -88,20 +88,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 1.875em;
+  margin-top: 1.88em;
 }
 
 .contactUs h3{
-  margin-top: 0.625em;
-  margin-bottom: 0.625em;
+  margin-top: 0.63em;
+  margin-bottom: 0.63em;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.25em;
   font-weight: normal;
 }
 
 .contactUs p{
-  margin-left: 1.875em;
-  margin-right: 1.875em;
+  margin-left: 1.88em;
+  margin-right: 1.88em;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1em;
   text-align: center;
@@ -110,8 +110,8 @@
 .contactUs a{
   color:#09c;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 1.125em;
-  margin-bottom: 1.25em;
+  font-size: 1.13em;
+  margin-bottom: 1.13em;
   text-decoration: none;
 }
 
@@ -123,8 +123,8 @@
 .winkels-in > a{
   color:#09c;
   font-family: Roman-55, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 0.875em;
-  margin-left: 0.625em;
+  font-size: 0.88em;
+  margin-left: 0.63em;
   text-decoration: none;
   cursor: pointer;
 }
@@ -132,12 +132,12 @@
 
 .winkels-in img{
   width: auto;
-  height: 0.9375em;
+  height: 0.94em;
 }
 
 .winkels-in{
 display: flex;
 padding-left: 1.25em;
 align-items: center;
-margin-top: 0.625em;
+margin-top: 0.63em;
 }
