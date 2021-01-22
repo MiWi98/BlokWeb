@@ -4,26 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="./styles/footer.css">
-  <link rel="stylesheet" href="./styles/menu-nav.css">
-  <link rel="stylesheet" href="./styles/styles-stores.css">
+  <link rel="stylesheet" href="testimonial-slider.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="styles-stores.css">
+  <link rel="icon" type="image/png" href="links/oneplus-facivon.png" />
 
   <title>Never Settle - OnePlus (Nederland)</title>
 </head>
 
 <body>
   <header>
+
     <section class="nav-bar">
-      <div id='hamburger-menu' class="container">
+      <div id='hamburger-menu' class="container" onclick="toggleMenu()">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
       </div>
 
-      <a href="index.html">
-        <img src="links/oneplus-logo.png" alt="logo OnePlus" id='logo'>
-      </a>
+      <a href="index.html"><img src="links/oneplus-logo.png" alt="logo OnePlus" id='logo'></a>
       <div id='shopping-cart' class="container">
         <img src="links/shop-basket.png" alt="shopping basket">
       </div>
@@ -31,82 +30,76 @@
 
     <nav id='menu-overlay' class='hidden'>
       <nav class='menu-nav'>
-        <nav class='menu-nav-item'>
+        <nav class='menu-nav-item' onclick="collapseMenuItem(1)">
           <section class='menuTop-item'>
-            <p>Telefoons <span>New</span></p>
-
+            <p>Telefoons <span>New</span></p> 
             <section class="footerMenu" id='menu-dropdown-icon-1'>
               <section class="barMenu1"></section>
               <section class="barMenu2"></section>
             </section>
           </section>
-
-          <section class='hidden' id='menu-dropdown-1'>
+          <section class='submenu' id='menu-dropdown-1'>
             <ul>
-              <li><img src="links/menu-nav/8T.jpg"><br />Oneplus 8T</li>
-              <li><img src="links/menu-nav/8-Pro.jpg"><br />Oneplus 8 Pro</li>
-              <li><img src="links/menu-nav/8.jpg"><br />Oneplus 8 </li>
-              <li><img src="links/menu-nav/Nord-10.jpg"><br />Oneplus Nord</li>
-              <li><img src="links/menu-nav/Nord-100.jpg"><br />Oneplus N10 5G</li>
-              <li><img src="links/menu-nav/Nord.jpg"><br />N100</li>
+              <li><img src="links/menu-nav/8T.jpg"> <br>Oneplus 8T</li>
+              <li><img src="links/menu-nav/8-Pro.jpg"><br>Oneplus 8 Pro</li>
+              <li><img src="links/menu-nav/8.jpg"><br>Oneplus 8 </li>
+              <li><img src="links/menu-nav/Nord-10.jpg"><br>Oneplus Nord</li>
+              <li><img src="links/menu-nav/Nord-100.jpg"><br>Oneplus N10 5G</li>
+              <li><img src="links/menu-nav/Nord.jpg"><br>N100</li>
             </ul>
           </section>
         </nav>
 
-        <nav class='menu-nav-item'>
+        <nav class='menu-nav-item' onclick="collapseMenuItem(2)">
           <section class='menuTop-item'>
-            <p>Store <span>New</span></p>
-
+            <p>Store <span>New</span></p> 
             <section class="footerMenu" id='menu-dropdown-icon-2'>
               <section class="barMenu1"></section>
               <section class="barMenu2"></section>
             </section>
           </section>
-
-          <section class='hidden' id='menu-dropdown-2'>
+          <section class='submenu' id='menu-dropdown-2'>
             <ul>
-              <li><img src="links/menu-nav/8T.jpg"><br />Telefoon</li>
-              <li><img src="links/menu-nav/Case.jpg"><br />Cases en <br />Bescherming</li>
-              <li><img src="links/menu-nav/Power.jpg"><br />Stroomkabels</li>
-              <li><img src="links/menu-nav/Audio.jpg"><br />Geluid</li>
-              <li><img src="links/menu-nav/Bundles_Mo.jpg"><br />Bundels</li>
-              <li><img src="links/menu-nav/Gear.jpg"><br />Uitrusting</li>
-            </ul>
+              <li><img src="links/menu-nav/8T.jpg"><br>Telefoon</li>
+              <li><img src="links/menu-nav/Case.jpg"><br>Cases en <br>Bescherming</li>
+              <li><img src="links/menu-nav/Power.jpg"><br>Stroomkabels</li>
+              <li><img src="links/menu-nav/Audio.jpg"><br>Geluid</li>
+              <li><img src="links/menu-nav/Bundles_Mo.jpg"><br>Bundels</li>
+              <li><img src="links/menu-nav/Gear.jpg"><br>Uitrusting</li>
+          </ul>
           </section>
         </nav>
 
-        <nav class='menu-nav-item'>
+        <nav class='menu-nav-item' onclick="collapseMenuItem(3)">
           <section class='menuTop-item'>
-            <p>Join ons</p>
-
+            <p>Join ons</p> 
             <section class="footerMenu" id='menu-dropdown-icon-3'>
               <section class="barMenu1"></section>
               <section class="barMenu2"></section>
             </section>
           </section>
-
-          <section class='hidden' id='menu-dropdown-3'>
+          <section class='submenu' id='menu-dropdown-3'>
             <ul>
-              <li><img src="links/menu-nav/trade-M.jpg"><br />Ruil in en<br /> bespaar</li>
-              <li><img src="links/menu-nav/referral-M.jpg"><br />Referral <br />progamma</li>
-              <li><img src="links/menu-nav/education-M.jpg"><br />Onderwijs <br /> programma</li>
-              <li><img src="links/menu-nav/opd-M.jpg"><br />OnePlus Day</li>
+              <li><img src="links/menu-nav/trade-M.jpg"><br>Ruil in en<br> bespaar</li>
+              <li><img src="links/menu-nav/referral-M.jpg"><br>Referral <br>progamma</li>
+              <li><img src="links/menu-nav/education-M.jpg"><br>Onderwijs <br> programma</li>
+              <li><img src="links/menu-nav/opd-M.jpg"><br>OnePlus Day</li>
             </ul>
           </section>
         </nav>
+        
+      <ul>
+        <li> <a href="">Over ons</a></li>
+        <li> <a href=" ">Ondersteuning</a></li>
+        <li> <a href=" ">Community</a></li>
+        <li> <a href="winkels.html ">Vind een winkel</a></li>
+      </ul>
 
-        <ul>
-          <li><a href="">Over ons</a></li>
-          <li><a href=" ">Ondersteuning</a></li>
-          <li><a href=" ">Community</a></li>
-          <li><a href="winkels.html ">Vind een winkel</a></li>
-        </ul>
-
-        <section class="aanmelden">
-          <img src="links/aanmelden.png">
-          <p>Aanmelden</p> &nbsp; | <p>Start hier</p>
-        </section>
-      </nav>
+      <section class="aanmelden">
+        <img src="links/aanmelden.png"> 
+          <p>Aanmelden</p> &nbsp; |  <p> Start hier</p>
+      </section>
+    </nav>
     </nav>
   </header>
 
@@ -185,151 +178,152 @@
 
 
     <footer>
-      <nav class='footer-nav-item'>
+      <nav class='footer-nav-item' onclick="collapseFooterItem(1)">
         <section class='menu-item'>
           <h3>Telefoons</h3>
           <section class="footerMenu" id='footer-dropdown-icon-1'>
-            <section class="barFooter"></section>
-            <section class="barFooter"></section>
+            <section class="barFooter1"></section>
+            <section class="barFooter2"></section>
           </section>
         </section>
-        <section class='footerSubMenu hidden2' id='footer-dropdown-1'>
-          <ul>
-            <li><a href=" ">OnePlus 8T</li></a>
-            <li><a href=" ">OnePlus Nord</li></a>
-            <li><a href=" ">OnePlus 8 Pro</li></a>
-            <li><a href=" ">OnePlus 8</li></a>
-            <li><a href=" ">OnePlus 7T</li></a>
-            <li><a href=" ">N10 5G</li></a>
-            <li><a href=" ">N100</li></a>
-          </ul>
+        <section class='footerSubMenu' id='footer-dropdown-1'>
+        <ul>
+          <li><a href=" ">OnePlus 8T</li></a>
+          <li><a href=" ">OnePlus Nord</li></a>
+          <li><a href=" ">OnePlus 8 Pro</li></a>
+          <li><a href=" ">OnePlus 8</li></a>
+          <li><a href=" ">OnePlus 7T</li></a>
+          <li><a href=" ">N10 5G</li></a>
+          <li><a href=" ">N100</li></a>
+        </ul>
         </section>
       </nav>
 
-      <nav class='footer-nav-item'>
+      <nav class='footer-nav-item' onclick="collapseFooterItem(2)">
         <section class='menu-item'>
           <h3>Accessoires</h3>
           <section class="footerMenu" id='footer-dropdown-icon-2'>
-            <section class="barFooter"></section>
-            <section class="barFooter"></section>
+            <section class="barFooter1"></section>
+            <section class="barFooter2"></section>
           </section>
         </section>
-        <section class='footerSubMenu hidden2' id='footer-dropdown-2'>
-          <ul>
-            <li><a href=" ">Cases en Bescherming</li></a>
-            <li><a href=" ">Stroomkabels</li></a>
-            <li><a href=" ">Geluid</li></a>
-            <li><a href=" ">Bundels</li></a>
-            <li><a href=" "> Uitrusting </li></a>
-          </ul>
+        <section class='footerSubMenu' id='footer-dropdown-2'>
+        <ul>
+          <li><a href=" ">Cases en Bescherming</li></a>
+          <li><a href=" ">Stroomkabels</li></a>
+          <li><a href=" ">Geluid</li></a>
+          <li><a href=" ">Bundels</li></a>
+          <li><a href=" "><Uitrusting</li></a>
+        </ul>
         </section>
       </nav>
 
-      <nav class='footer-nav-item'>
+      <nav class='footer-nav-item' onclick="collapseFooterItem(3)">
         <section class='menu-item'>
           <h3>Programma's</h3>
           <section class="footerMenu" id='footer-dropdown-icon-3'>
-            <section class="barFooter"></section>
-            <section class="barFooter"></section>
+            <section class="barFooter1"></section>
+            <section class="barFooter2"></section>
           </section>
         </section>
-        <section class='footerSubMenu hidden2' id='footer-dropdown-3'>
-          <ul>
-            <li><a href=" ">Onderwijsprogramma</li></a>
-            <li><a href=" ">Trade-in Program</li></a>
-            <li><a href=" ">Referral programma</li></a>
-            <li><a href=" ">Affiliate Program</li></a>
-            <li><a href=" ">Shot on OnePlus</li></a>
-          </ul>
+        <section class='footerSubMenu' id='footer-dropdown-3'>
+        <ul>
+          <li><a href=" ">Onderwijsprogramma</li></a>
+          <li><a href=" ">Trade-in Program</li></a>
+          <li><a href=" ">Referral programma</li></a>
+          <li><a href=" ">Affiliate Program</li></a>
+          <li><a href=" ">Shot on OnePlus</li></a>
+        </ul>
         </section>
       </nav>
 
-      <nav class='footer-nav-item'>
+      <nav class='footer-nav-item' onclick="collapseFooterItem(4)">
         <section class='menu-item'>
           <h3>Ondersteuning</h3>
           <section class="footerMenu" id='footer-dropdown-icon-4'>
-            <section class="barFooter"></section>
-            <section class="barFooter"></section>
+            <section class="barFooter1"></section>
+            <section class="barFooter2"></section>
           </section>
         </section>
-        <section class='footerSubMenu hidden2' id='footer-dropdown-4'>
-          <ul>
-            <li><a href=" ">Veelgestelde vragen over shop</li></a>
-            <li><a href=" ">Gebruikershandeling</li></a>
-            <li><a href=" ">Software-upgrades</li></a>
-            <li><a href=" ">Reperatie</li></a>
-            <li><a href=" ">Contact</li></a>
-          </ul>
+        <section class='footerSubMenu' id='footer-dropdown-4'>
+        <ul>
+          <li><a href=" ">Veelgestelde vragen over shop</li></a>
+          <li><a href=" ">Gebruikershandeling</li></a>
+          <li><a href=" ">Software-upgrades</li></a>
+          <li><a href=" ">Reperatie</li></a>
+          <li><a href=" ">Contact</li></a>
+        </ul>
         </section>
       </nav>
 
-      <nav class='footer-nav-item'>
+      <nav class='footer-nav-item' onclick="collapseFooterItem(5)">
         <section class='menu-item'>
           <h3>Bedrijf</h3>
           <section class="footerMenu" id='footer-dropdown-icon-5'>
-            <section class="barFooter"></section>
-            <section class="barFooter"></section>
+            <section class="barFooter1"></section>
+            <section class="barFooter2"></section>
           </section>
         </section>
-        <section class='footerSubMenu hidden2' id='footer-dropdown-5'>
-          <ul>
-            <li><a href=" ">Over OnePlus </li></a>
-            <li><a href=" ">Community</li></a>
-            <li><a href=" ">Vacatures</li></a>
-            <li><a href=" ">Sustainability</li></a>
-            <li><a href=" ">Media</li></a>
-          </ul>
+        <section class='footerSubMenu' id='footer-dropdown-5'>
+        <ul>
+          <li><a href=" ">Over OnePlus </li></a>
+          <li><a href=" ">Community</li></a>
+          <li><a href=" ">Vacatures</li></a>
+          <li><a href=" ">Sustainability</li></a>
+          <li><a href=" ">Media</li></a>
+        </ul>
         </section>
       </nav>
 
-      <section class="Payments">
-        <ul>
-          <li><img src='links/payments/paypal.png' /></li>
-          <li><img src='links/payments/Visa.png' /></li>
-          <li><img src='links/payments/masterCard.png' /></li>
-          <li><img src='links/payments/AmericanExpress.png' /></li>
-          <li><img src='links/payments/Ideal.png' /></li>
-          <li><img src='links/payments/DinerClub.png' /></li>
-          <li><img src='links/payments/Discover.png' /></li>
-        </ul>
-      </section>
+    <section class="Payments">
+      <ul>
+        <li><img src='links/payments/paypal.png' /></li>
+        <li><img src='links/payments/Visa.png' /></li>
+        <li><img src='links/payments/masterCard.png' /></li>
+        <li><img src='links/payments/AmericanExpress.png' /></li>
+        <li><img src='links/payments/Ideal.png' /></li>
+        <li><img src='links/payments/DinerClub.png' /></li>
+        <li><img src='links/payments/Discover.png' /></li>
+      </ul>
+    </section>
 
 
-      <section class="customerSupport">
-        <section class="callSupport">
-          <a href="tel:+31852083289"> +31 85 2083 289 <img src='links/mobile/Socials/call-icon.png' /></a>
-          <p>8:00 am – 5:00 pm CEST, Mon to Fri</p>
-        </section>
+    <section class="customerSupport">
+      <section class="callSupport">
+        <a href="tel:+31852083289"> +31 85 2083 289 <img src='links/mobile/Socials/call-icon.png' /></a>
+        <p>8:00 am – 5:00 pm CEST, Mon to Fri</p>
       </section>
+    </section>
 
-      <section class="social-icons">
-        <ul>
-          <li><a href="https://www.facebook.com/oneplusnederland"><img src='links/mobile/Socials/fb-icon.png' /></a></li>
-          <li><a href="https://www.instagram.com/oneplus/"></a><img src='links/mobile/Socials/insta-Icon.png' /></a></li>
-          <li><a href="https://twitter.com/oneplus_nl"> <img src='links/mobile/Socials/twitter-icon.png' /></a></li>
-        </ul>
-      </section>
+    <section class="social-icons">
+      <ul>
+        <li><a href="https://www.facebook.com/oneplusnederland"><img src='links/mobile/Socials/fb-icon.png' /></a></li>
+        <li><a href="https://www.instagram.com/oneplus/"></a><img src='links/mobile/Socials/insta-Icon.png' /></a></li>
+        <li><a href="https://twitter.com/oneplus_nl"> <img src='links/mobile/Socials/twitter-icon.png' /></a></li>
+      </ul>
+    </section>
 
-      <section class="land">
-        <ul>
-          <li> <img src='links/FlagNL.png' /> Nederland ( Nederlands / EUR )</li>
-        </ul>
-      </section>
+    <section class="land">
+      <ul>
+      <li> <img src='links/FlagNL.png' /> Nederland ( Nederlands / EUR )</li>
+      </ul>
+    </section>
 
-      <section class="footerLinks">
-        <ul>
-          <li><a href="https://www.oneplus.com/nl/legal/privacy-policy?from=foot">Privacybeleid</a> &nbsp; | &nbsp;</li>
-          <li><a href="https://www.oneplus.com/nl/legal/user-agreement?from=foot">User Agreement</a> &nbsp; | &nbsp;</li>
-          <li><a href="https://www.oneplus.com/nl/legal/terms-of-sales?from=foot">Verkoopvoorwaarden</a> &nbsp; | &nbsp;</li>
-          <li><a href="mailto:security@oneplus.com">Security Feedback</a> &nbsp; | &nbsp;</li>
-          <li><a href="https://www.oneplus.com/nl/sitemap?from=foot">Site Map</a></li>
-        </ul>
-      </section>
+    <section class="footerLinks">
+      <ul>
+         <li><a href="https://www.oneplus.com/nl/legal/privacy-policy?from=foot">Privacybeleid</a> &nbsp; | &nbsp;</li>
+         <li><a href="https://www.oneplus.com/nl/legal/user-agreement?from=foot">User Agreement</a> &nbsp; | &nbsp;</li>
+         <li><a href="https://www.oneplus.com/nl/legal/terms-of-sales?from=foot">Verkoopvoorwaarden</a> &nbsp; | &nbsp;</li>
+         <li><a href="mailto:security@oneplus.com">Security Feedback</a> &nbsp; | &nbsp;</li>
+         <li><a href="https://www.oneplus.com/nl/sitemap?from=foot">Site Map</a></li>
+      </ul>
+    </section>
 
-      <section class="copyRights">
-        <p> &copy; 2013 - 2020 OnePlus. All Rights Reserved.</p>
-      </section>
-    </footer>
+    <section class="copyRights">
+      <p> &copy; 2013 - 2020 OnePlus. All Rights Reserved.</p>
+    </section>
+
+  </footer>
 
   </main>
   <script src="one-plus.js"></script>
